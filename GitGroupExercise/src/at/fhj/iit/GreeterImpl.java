@@ -13,6 +13,6 @@ public class GreeterImpl implements Greeter {
 	}
 	
 	public void sayGoodbye() {
-		
+		System.out.println("Good Bye, " + name);
 	}
 }
