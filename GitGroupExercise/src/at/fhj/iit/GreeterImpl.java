@@ -9,7 +9,7 @@ public class GreeterImpl implements Greeter {
 	}
 	
 	public void sayHello() {
-		
+		System.out.println("Hello, "+name+"!");
 	}
 	
 	public void sayGoodbye() {
